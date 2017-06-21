@@ -6,8 +6,14 @@ For information on the domain-specific language used see https://github.com/next
 
 
 Analysis of NGS data involves multiple technical steps such as installation of the software components of bioinformatics pipelines; coordinating format conversions and data flow between pipeline components; managing software versions and updates; automating execution for multiple runs; supplying the required computational and data storage infrastructure; and last but not least, providing an intuitive user interface for non-bioinformatics experts. To overcome these challenges, bioinformatics software developers have leveraged technologies such as virtual machines and Docker containers ([1], [2]) for distributing preconfigured bioinformatics software that can run on any computational platform. The use of virtualization technology and cloud computing saves significant development time and cost, as the software does not need to be set up from scratch at each laboratory. The increased interest for applications of virtualization for NGS data analysis is evident through many recent studies, ranging from comparing performance of virtual machines to conventional computing [3], and bioinformatics-specific Docker container repositories [4]. 
- 
-We propose that by leveraging the high-level, domain-specific language Nextflow [ref] that is designed for bioinformatics, we can develop a novel model called Science as a Service (SciaaS). Following this model, bioinformatics software developers can easily deploy software and data analysis on a variety of computing environments ranging from lab computers, data center clusters setups and cloud computers. With a SciaaS model for bioinformatics, researchers can easily analyze sequencing data, and remove the bottleneck in smaller laboratories, as well as provide easy access for large-scale computational and storage capabilities with the use of cloud computing.
+
+Objectives:
+
+We propose that by leveraging the high-level, domain-specific language Nextflow [ref] that is designed for bioinformatics, we can develop a novel model called Science as a Service (SciaaS). 
+
+Following this model, bioinformatics software developers can easily deploy software and data analysis on a variety of computing environments ranging from lab computers, data center clusters setups and cloud computers. 
+
+With a SciaaS model for bioinformatics, researchers can easily analyze sequencing data, and remove the bottleneck in smaller laboratories, as well as provide easy access for large-scale computational and storage capabilities with the use of cloud computing.
 
 
 References
